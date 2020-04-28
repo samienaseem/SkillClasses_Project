@@ -32,7 +32,7 @@
 
 
     $date=date('d/m/Y');    
-    $targetdir="test_uploads/Class_$class/Assignments";
+    $targetdir="test_uploads/Class_$class/Assignments/";
     $fileName = $_FILES["file1"]["name"]; // The file name
     $target_file=$targetdir.basename($fileName);
     $fileTmpLoc = $_FILES["file1"]["tmp_name"]; // File in the PHP tmp folder

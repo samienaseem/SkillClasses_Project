@@ -1,0 +1,132 @@
+.filter-bar{
+
+    margin-top: 5px;
+    padding: 10px;
+    box-shadow: 0px 5px 8px lightgrey;
+   
+}
+#subjects{
+	padding: 7px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.boxing{
+	
+	
+}
+
+/*.table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid green;
+}
+
+.table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+}*/
+#res1{
+	margin-top: 15px;
+}
+
+
+/*video css*/
+
+.main_video {
+	border: 0.5px solid lightgrey; 
+	/*width:420px;*/
+	text-align: center;
+	 border-radius: 2px;
+	 /*margin-left: 400px;*/
+	 
+	
+	 background-size: cover;
+	 /*margin-bottom: 5px;*/
+	 /*height: 365px;*/
+	 
+	 padding: 5px;/*added*/
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.main_video > h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+}
+     
+     
+	.video_src {
+		/*border: 2px solid black;*/
+		width: 100%;/*edited*/
+		
+		border-radius: 10px;
+		/*margin-left: 6px;*/
+		padding:5px;/*added*/
+	 }
+	 .video_src > video{
+	 	height: 165px;
+	 	width: 100%;
+	 }
+
+
+	.video_name{
+		/*margin-top: 5px;*/
+		/*border: 2px solid black;*/
+		width: 100%;/*edited*/
+		/*height: 50px;*/
+		border-radius: 10px;
+		/*margin-left: 6px;*/
+		padding:5px;/*added*/
+	}
+	.video_class{
+		font-weight: bolder;
+		margin-top: 5px;
+		/*border: 2px solid black;*/
+		width: 100%;/*edited*/
+		/*height: 50px;*/
+		border-radius: 10px;
+		/*margin-left: 6px;*/
+		padding:5px;/*added*/
+	}
+	.video_sub{
+		margin-top: 5px;
+		/*border: 2px solid black;*/
+		width: 100%;/*edited*/
+		/*height: 50px;*/
+		border-radius: 10px;
+		/*margin-left: 6px;*/
+		padding:5px;/*added*/
+	}
+	.video_date{
+		margin-top: 5px;
+		/*border: 2px solid black;*/
+		width: 100%;/*edited*/
+		/*height: 50px;*/
+		border-radius: 10px;
+		/*margin-left: 6px;*/
+		padding:5px;/*added*/
+	}
+	.button{
+		margin-top: 15px;
+		display: flex;
+
+
+		/*margin-right: 200px*/
+	}
+	.edit, .submit{
+		width: 50%;
+		border-radius: 0px;
+	}
+	.design{
+
+    height: 1px;
+    background-color: lightgray;
+    width: 95%;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    box-shadow: 1px 1px 5px lightgrey;
+	}
+	.not-found{
+		padding: 100px;
+		text-align: center;
+	}

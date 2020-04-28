@@ -17,8 +17,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="class9mcq.php"><i class="fa fa-circle-o"></i>Class-9</a></li>
-            <li><a href="class10mcq.php"><i class="fa fa-circle-o"></i>Class-10</a></li>
+            <li><a href="classMcq.php?class=9"><i class="fa fa-circle-o"></i>Class-9</a></li>
+            <li><a href="classMcq.php?class=10"><i class="fa fa-circle-o"></i>Class-10</a></li>
             <li class="treeview">
                 <a href="#">
                    <i class="fa fa-users"></i>
@@ -28,9 +28,9 @@
                    </span> 
                 </a>
                 <ul class="treeview-menu">
-                     <li><a href="class11pcbmcq.php"><i class="fa fa-circle-o"></i>PCB</a></li>
-                     <li><a href="class11pcmmcq.php"><i class="fa fa-circle-o"></i>PCM</a></li>
-                     <li><a href="class11pcmbmcq.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
+                     <li><a href="classMcq.php?class=11&stream=pcb"><i class="fa fa-circle-o"></i>PCB</a></li>
+                     <li><a href="classMcq.php?class=11&stream=pcm"><i class="fa fa-circle-o"></i>PCM</a></li>
+                     <li><a href="classMcq.php?class=11&stream=pcmb"><i class="fa fa-circle-o"></i>PCMB</a></li>
                 </ul>
             </li>
             <li class="treeview">
@@ -42,9 +42,9 @@
                    </span> 
                 </a>
                 <ul class="treeview-menu">
-                     <li><a href="class12pcbmcq.php"><i class="fa fa-circle-o"></i>PCB</a></li>
-                     <li><a href="class12pcmmcq.php"><i class="fa fa-circle-o"></i>PCM</a></li>
-                     <li><a href="class12pcmbmcq.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
+                     <li><a href="classMcq.php?class=12&stream=pcb"><i class="fa fa-circle-o"></i>PCB</a></li>
+                     <li><a href="classMcq.php?class=12&stream=pcm"><i class="fa fa-circle-o"></i>PCM</a></li>
+                     <li><a href="classMcq.php?class=12&stream=pcmb"><i class="fa fa-circle-o"></i>PCMB</a></li>
                 </ul>
             </li>
           </ul>
@@ -68,7 +68,7 @@
                         <i class="fa fa-angle-left pull-right"></i>
                    </span> 
                 </a>
-                <ul class="treeview-menu">
+                <ul class="treeview-menu" >
                      <li><a href="class11pcbvideo.php"><i class="fa fa-circle-o"></i>PCB</a></li>
                      <li><a href="class11pcmvideo.php"><i class="fa fa-circle-o"></i>PCM</a></li>
                      <li><a href="class11pcmbvideo.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
@@ -83,7 +83,7 @@
                    </span> 
                 </a>
                 <ul class="treeview-menu">
-                     <li><a href="class12pcbvideo.php"><i class="fa fa-circle-o"></i>PCB</a></li>
+                     <li><a href="class12pcbvideo.php"><i class="fa fa-circle-o" ></i>PCB</a></li>
                      <li><a href="class12pcmvideo.php"><i class="fa fa-circle-o"></i>PCM</a></li>
                      <li><a href="class12pcmbvideo.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
                 </ul>
@@ -110,8 +110,8 @@
                    </span> 
                 </a>
                 <ul class="treeview-menu">
-                     <li><a href="class11pcbassignment.php"><i class="fa fa-circle-o"></i>PCB</a></li>
-                     <li><a href="class11pcmassignment.php"><i class="fa fa-circle-o"></i>PCM</a></li>
+                     <li><a href="class11pcbassignment.php" data-stream="PCB" id="stream"><i class="fa fa-circle-o"></i>PCB</a></li>
+                     <li><a href="class11pcmassignments.php"><i class="fa fa-circle-o"></i>PCM</a></li>
                      <li><a href="class11pcmbassignment.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
                 </ul>
             </li>
@@ -126,7 +126,7 @@
                 <ul class="treeview-menu">
                      <li><a href="class12pcbassignment.php"><i class="fa fa-circle-o"></i>PCB</a></li>
                      <li><a href="class12pcmassignment.php"><i class="fa fa-circle-o"></i>PCM</a></li>
-                     <li><a href="class12pcmassignment.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
+                     <li><a href="class12pcmbassignment.php"><i class="fa fa-circle-o"></i>PCMB</a></li>
                 </ul>
             </li>
           </ul>

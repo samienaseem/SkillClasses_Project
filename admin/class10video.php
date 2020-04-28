@@ -72,7 +72,7 @@
                   <div class="form-group row">
                       <label for="id_sponcer" class="col-md-4 col-form-label text-md-right">Video Discription</label>
                       <div class="col-md-6">
-                        <input type="text" class="form-control" id="disp">
+                        <input type="text" class="form-control" id="desp">
                       </div>
                   </div>
                   <div class="form-group row">
@@ -82,7 +82,7 @@
                       </div>
                   </div>
                 </div>
-                <button type="button" class="btn btn-success btn-flat" onclick="uploadFile()"><i class="fa fa-check-square-o"></i>Upload Video</button>
+                <button type="button" class="btn btn-success btn-flat" onclick="uploadFile2('10')"><i class="fa fa-check-square-o"></i>Upload Video</button>
               </form>
               <!-- <div class="progressbar" style="margin-top: 20px">
 
